@@ -1,18 +1,32 @@
 ﻿Console.Clear();
-int a = 7;
-int b = 15;
-int max = 0;
-int min = 0;
+int a = 44;
+int b = 5;
+int c = 78;
+int max = a;
+int min = a;
 
-if(a>b)
+if(max < b)
 {
-    max = a;
-    min = b;
+    max = b;
 }
 else 
 {
-    max = b;
-    min = a;
+    if(min>b)
+    {
+        min=b;
+    }
 }  
+if(max < c)
+{
+    max = c;
+}
+else 
+{
+    if(min>c)
+    {
+        min=c;
+    }
+} 
+
 
 Console.WriteLine($"Max{max} Min{min}");
