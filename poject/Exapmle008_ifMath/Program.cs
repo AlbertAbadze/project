@@ -1,6 +1,6 @@
 ﻿Console.Clear();
-int a = -3;
-int b = 9;
+int a = 25;
+int b = 5;
 
 int result = a / b;
 

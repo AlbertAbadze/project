@@ -1,7 +1,7 @@
 ﻿Console.Clear();
-int a = 44;
-int b = 5;
-int c = 78;
+int a = 52;
+int b = 152;
+int c = 1000;
 int max = a;
 int min = a;
 
